@@ -70,6 +70,7 @@ header::after {
 .hamburger-menu a {
   color: #fff;
 }
+
 .hamburger-menu,
 .header_navbar,
 .mega-menu {
@@ -293,4 +294,16 @@ footer{
   .hide-link {
     display: none;
   }
+}
+
+@media (max-width: 768px) {
+ .hamburger-menu{
+    display: block;
+ } 
+ .initial-navbar{
+   display: none;
+ }
+ .md-device-try{
+   width: 80% !important;
+ }
 }
